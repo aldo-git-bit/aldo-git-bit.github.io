@@ -5,5 +5,12 @@
     <title>Content Manager</title>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
-  <body></body>
+  <body>
+    <script>
+      window.CMS_MANUAL_INIT = true;
+    </script>
+    <script>
+      CMS.init();
+    </script>
+  </body>
 </html>
