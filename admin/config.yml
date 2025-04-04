@@ -8,8 +8,10 @@ collections:
   - name: "homepage"
     label: "Homepage"
     files:
-      - label: "Index"
+      - label: "Index Page"
         name: "index"
         file: "index.html"
         fields:
-          - { label: "Main Content", name: "body", widget: "markdown" }
+          - label: "Main Content"
+            name: "body"
+            widget: "markdown"
