@@ -5,14 +5,14 @@ backend:
 media_folder: "img"
 
 collections:
-  - name: "homepage"
-    label: "Homepage"
+  - name: "site"
+    label: "Site Pages"
     files:
-      - label: "Index Page"
+      - label: "Index"
         name: "index"
         file: "index.html"
         fields:
-          - label: "HTML Content"
+          - label: "HTML Source"
             name: "body"
             widget: "code"
             default_language: "html"
