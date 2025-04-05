@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: aldo-git-bit/aldo-git-bit.github.io
   branch: main
+  auth_scope: repo
 
 media_folder: "img"
 
