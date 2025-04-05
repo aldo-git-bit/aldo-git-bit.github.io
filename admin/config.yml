@@ -2,7 +2,6 @@ backend:
   name: github
   repo: aldo-git-bit/aldo-git-bit.github.io
   branch: main
-  auth_scope: repo
 
 media_folder: "img"
 public_folder: "/img"
