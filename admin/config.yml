@@ -12,6 +12,7 @@ collections:
         name: "index"
         file: "index.html"
         fields:
-          - label: "Main Content"
+          - label: "HTML Content"
             name: "body"
-            widget: "markdown"
+            widget: "code"
+            default_language: "html"
