@@ -5,12 +5,13 @@ backend:
   auth_scope: repo
 
 media_folder: "img"
+public_folder: "/img"
 
 collections:
-  - name: "site"
-    label: "Site Pages"
+  - name: "homepage"
+    label: "Homepage"
     files:
-      - label: "Index"
+      - label: "Index Page"
         name: "index"
         file: "index.html"
         fields:
